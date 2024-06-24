@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estas",
+            "di hola mundo",
+            "di hola",
+            "dime hola mundo",
+            "dime hola"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "GetMessiFactIntent",
+          "samples": [
+            "dime un dato sobre Messi",
+            "cuéntame algo sobre Messi",
+            "quiero saber sobre Messi"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "datos messi"
+    }
+  }
+}
